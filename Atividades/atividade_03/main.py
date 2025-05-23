@@ -32,7 +32,7 @@ try:
             print(f"Seu IMC é de {calculo}, portanto, seu diagnóstico é Obesidade Mórbida")
             
         else:
-            print(calculo)
+            print("Valor Inválido")
 
         voltar = input("Deseja Fazer outro Cálculo? (s/n) ").lower().strip()
         if voltar != "s":
